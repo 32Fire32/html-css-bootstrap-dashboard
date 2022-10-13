@@ -177,3 +177,10 @@ td .plus {
 td .plus a {
     color: #6c757d;
 }
+
+/* TODO */
+
+.form-check {
+    border:1px solid #d8d8d8;
+    padding:10px 40px;
+}
