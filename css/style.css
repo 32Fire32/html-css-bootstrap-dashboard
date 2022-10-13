@@ -11,6 +11,16 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    color:#fff;
+}
+
+/* TYPO */
+
+.students span {
+    font-size: 30px;
+}
+
 /* COLORS */
 .primary-color {
     background-color: var(--primary-color);
@@ -119,13 +129,26 @@ span.d-none {
 }
 
 main {
-    background-color: var(--secondary-color);
     overflow-y: auto;
     flex-grow: 1;
 }
 
-.col-12 {
-    background-color: #ff8f00;
-    border: 1px dashed red;
-    height: 200px;
+.main-top {
+    background-color: var(--secondary-color);
+    padding: 1.25rem;
+    color:#fff;
+}
+
+span.badge {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.badge {
+    border-radius: 30px;
+}
+
+.bg-secondary {
+    --bs-bg-opacity: 0;
+    background-color: rgba(0, 0, 0, 0.3)!important;
 }
