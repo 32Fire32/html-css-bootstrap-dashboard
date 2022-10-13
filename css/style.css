@@ -28,11 +28,15 @@ a {
 
 header {
     background-color: var(--primary-color);
-    padding: 0.625rem;
+    padding:0.625rem;
+}
+
+header .row:first-child .col-1{
+    padding: 0;
 }
 
 .col-1 img {
-    width: 3.75rem;
+    width: 50px;
 }
 
 .col-1 a {
@@ -80,6 +84,26 @@ svg {
     font-size: 14px;
 }
 
+
+/* ASIDE */
+
+aside {
+    padding: 1.25rem;
+    background-color: var(--secondary-color-dark);
+    background-image: url(/img/sidebar-bg.png);
+    height:100%;
+}
+
+aside a {
+    color:#fff;
+    font-size: 1.25rem;
+}
+
+span.d-none {
+    font-weight: 300;
+    color: #fff;
+}
+
 /* RESPONSIVE */
 @media screen and (min-width:992px) {
     aside {
@@ -87,15 +111,11 @@ svg {
     }
 }
 
+
 /* MAIN */
 
 .page-container {
     height: calc(100vh - 4.375rem);
-}
-
-aside {
-    padding: 1.25rem;
-    background-color: var(--secondary-color-dark);
 }
 
 main {
@@ -108,8 +128,4 @@ main {
     background-color: #ff8f00;
     border: 1px dashed red;
     height: 200px;
-}
-
-.row {
-    border: 1px solid black;
 }
