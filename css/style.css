@@ -1,5 +1,6 @@
 @import 'variables.css';
 @import 'searchbars';
+@import 'add-ons.css';
 
 /* COMMON */
 
@@ -13,6 +14,12 @@ a {
 
 a:hover{
     color:#fff;
+}
+
+/* BOTTONI */
+
+.btn {
+    padding: 0.15rem 0.75rem ;
 }
 
 /* TYPO */
@@ -151,4 +158,22 @@ span.badge {
 .bg-secondary {
     --bs-bg-opacity: 0;
     background-color: rgba(0, 0, 0, 0.3)!important;
+}
+
+td img {
+    width: 3.125rem;
+    margin-right: 0.625rem;
+}
+
+.card-header .plus {
+    color:var(--secondary-color)
+}
+
+td .plus {
+    border-color: #6c757d;
+    margin-left: 0.625rem;
+}
+
+td .plus a {
+    color: #6c757d;
 }
