@@ -103,3 +103,13 @@ main {
     overflow-y: auto;
     flex-grow: 1;
 }
+
+.col-12 {
+    background-color: #ff8f00;
+    border: 1px dashed red;
+    height: 200px;
+}
+
+.row {
+    border: 1px solid black;
+}
