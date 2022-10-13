@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
 }
 
 a {
@@ -167,6 +168,10 @@ td img {
 
 .card-header .plus {
     color:var(--secondary-color)
+}
+
+td {
+    line-height: 67px;
 }
 
 td .plus {
