@@ -116,9 +116,6 @@ svg {
     font-size: 0.875rem;
 }
 
-
-
-
 /* ASIDE */
 
 aside {
@@ -145,7 +142,7 @@ span.d-none {
 }
 
 /* RESPONSIVE */
-@media screen and (min-width:992px) {
+@media screen and (min-width:768px) {
     aside {
         width: 12.5rem;
     }
@@ -215,12 +212,31 @@ td .plus a {
     color: #6c757d;
 }
 
+th:not(:first-child) {
+    width: 25%
+}
+
 /* RESPONSIVE */
+
+@media screen and (min-width:768px) {
+    th:not(:first-child) {
+        width: 19%
+    }   
+}
+
 @media screen and (min-width:1200px) {
     th:first-child {
-        width: 50%;
+        width: 30%;
+    }    
+}
+
+@media screen and (min-width:1400px) {
+    th:first-child {
+        width: 50%;        
     }
-    
+    th:not(:first-child) {
+        width: 20%
+    }
 }
 
 /* TODO */
