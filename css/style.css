@@ -198,9 +198,17 @@ td {
     line-height: 4.1875rem;
 }
 
+.card-header .plus:hover {
+    background-color: rgb(177, 192, 232);
+}
+
 td .plus {
     border-color: #6c757d;
     margin-right:0.625rem;
+}
+
+td .plus:hover {
+    background-color: #d9d9d9;
 }
 
 td .plus a {
