@@ -13,14 +13,24 @@ a {
     text-decoration: none;
 }
 
-a:hover{
-    color:#fff;
+i {
+    width:1.875rem;
 }
+
+.fa-solid {
+    width:30px;
+}
+
 
 /* BOTTONI */
 
 .btn {
     padding: 0.15rem 0.75rem ;
+}
+
+.btn-primary, .btn-warning {
+    padding: 0.4rem 0.75rem;
+    margin-top: 0.625rem;
 }
 
 /* TYPO */
@@ -53,6 +63,11 @@ header .row:first-child .col-1{
     padding: 0;
 }
 
+.form-control {
+    transition: border-color 0s, ease-in-out, box-shadow 0s ease-in-out;
+    border:none;
+}
+
 .col-1 img {
     width: 50px;
 }
@@ -60,7 +75,6 @@ header .row:first-child .col-1{
 .col-1 a {
     color: #5a5858;
 }
-
 
 .lens .form-control {
     padding-left: 2.375rem;
@@ -99,8 +113,10 @@ svg {
 
 
 ::placeholder {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
+
+
 
 
 /* ASIDE */
@@ -110,9 +126,15 @@ aside {
     background-color: var(--secondary-color-dark);
     background-image: url(/img/sidebar-bg.png);
     height:100%;
+    flex-shrink: 0;
 }
 
-aside a {
+
+.icons-top:hover, .icons-down:hover {
+    transform: scale(120%);
+}
+
+.icons-top, .icons-down {
     color:#fff;
     font-size: 1.25rem;
 }
@@ -125,7 +147,7 @@ span.d-none {
 /* RESPONSIVE */
 @media screen and (min-width:992px) {
     aside {
-        width: 9.375rem;
+        width: 12.5rem;
     }
 }
 
@@ -161,6 +183,8 @@ span.badge {
     background-color: rgba(0, 0, 0, 0.3)!important;
 }
 
+/* TABLE */
+
 td img {
     width: 3.125rem;
     margin-right: 0.625rem;
@@ -171,16 +195,24 @@ td img {
 }
 
 td {
-    line-height: 67px;
+    line-height: 4.1875rem;
 }
 
 td .plus {
     border-color: #6c757d;
-    margin-left: 0.625rem;
+    margin-right:0.625rem;
 }
 
 td .plus a {
     color: #6c757d;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width:1200px) {
+    th:first-child {
+        width: 50%;
+    }
+    
 }
 
 /* TODO */
@@ -188,4 +220,16 @@ td .plus a {
 .form-check {
     border:1px solid #d8d8d8;
     padding:10px 40px;
+}
+
+/* OFFCANVAS */
+
+.form-control {
+    border: 1px solid #d8d8d8;
+}
+
+.offcanvas.offcanvas-start {
+    right:0;
+    transform: translate(100%);
+    left:calc(100vw - 25rem);
 }
