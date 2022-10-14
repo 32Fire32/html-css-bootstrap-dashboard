@@ -99,6 +99,12 @@ svg {
     font-size: 0.875rem;
 }
 
+/* HOVER */
+
+.fa-bell:hover {
+    transform: scale(120%);
+}
+
 /* ASIDE */
 
 aside {
@@ -180,9 +186,13 @@ td {
     line-height: 4.1875rem;
 }
 
+tr td:last-child {
+    padding-top:17px;
+}
+
 td .plus {
     border-color: #6c757d;
-    margin-right:0.625rem;
+    margin-left:0.625rem;
 }
 
 td .plus a {
