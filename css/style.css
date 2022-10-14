@@ -1,6 +1,6 @@
-@import 'variables.css';
-@import 'searchbars';
-@import 'add-ons.css';
+@import '/components/variables.css';
+@import '/components/searchbars.css';
+@import '/components/add-ons.css';
 
 /* COMMON */
 
@@ -74,23 +74,6 @@ header .row:first-child .col-1{
 
 .col-1 a {
     color: #5a5858;
-}
-
-.lens .form-control {
-    padding-left: 2.375rem;
-    background-color: #e5e5e5;
-}
-
-.lens .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
 }
 
 .fa-bell {
