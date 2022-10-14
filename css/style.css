@@ -244,3 +244,9 @@ td .plus:hover {
     transform: translate(100%);
     left:calc(100vw - 25rem);
 }
+
+/* GRAFICO */
+
+canvas {
+    padding: 0.625rem;
+}
