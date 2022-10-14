@@ -126,19 +126,21 @@ aside {
     flex-shrink: 0;
 }
 
-
-.icons-top:hover, .icons-down:hover {
-    transform: scale(120%);
-}
-
 .icons-top, .icons-down {
     color:#fff;
     font-size: 1.25rem;
+    transition: 0.2s ease-in-out;
 }
 
 span.d-none {
     font-weight: 300;
     color: #fff;
+}
+
+/* HOVER */
+
+.icons-top:hover, .icons-down:hover {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* RESPONSIVE */
